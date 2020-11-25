@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "170439096951",
+    "firebase_url": "https://individualassignment-873b2.firebaseio.com",
+    "project_id": "individualassignment-873b2",
+    "storage_bucket": "individualassignment-873b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170439096951:android:6ad0b42eab6ba63f032472",
+        "android_client_info": {
+          "package_name": "com.example.dell.individualassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170439096951-09u4i9jfp8h699rc9d288ngf913jal5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.individualassignment",
+            "certificate_hash": "37388982226d3f4e532b376a0ebe2cab0d132c24"
+          }
+        },
+        {
+          "client_id": "170439096951-o598u91cnqs8hcf0iaeptg0f23ji0gei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVx-8gs8ABmlSuo98z2G7DPu7j0suVAEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170439096951-o598u91cnqs8hcf0iaeptg0f23ji0gei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

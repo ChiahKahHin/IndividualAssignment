@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/tvWalletBalance"
+        android:title="Wallet Balance">
+        <menu>
+            <item
+                android:id="@+id/walletBalance"
+                android:icon="@drawable/ic_money"
+                android:title="RM" />
+
+        </menu>
+    </item>
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_login"
+            android:title="Login / Register" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_shopping_cart_black"
+            android:title="View Cart" />
+        <item
+            android:id="@+id/nav_purchaseHistory"
+            android:icon="@drawable/ic_purchase_history"
+            android:title="View Purchase History" />
+        <item
+            android:id="@+id/nav_reload"
+            android:icon="@drawable/ic_reload"
+            android:title="Reload Wallet" />
+        <item
+            android:id="@+id/nav_transactionHistory"
+            android:icon="@drawable/ic_transaction_history"
+            android:title="View Transaction History" />
+    </group>
+
+    <item android:title="Additional Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_viewProfile"
+                android:icon="@drawable/ic_login"
+                android:title="View &amp; Update Profile" />
+            <item
+                android:id="@+id/nav_changePassword"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
