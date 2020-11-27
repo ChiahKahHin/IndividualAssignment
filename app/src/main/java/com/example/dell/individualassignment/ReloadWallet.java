@@ -77,8 +77,9 @@ public class ReloadWallet extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         Intent replyIntent = new Intent();
+        String amount[] = tvWalletBalance.getText().toString().trim().split("RM ");
         replyIntent.putExtra(MainActivity.EXTRA_ID, user_id);
-        replyIntent.putExtra(MainActivity.EXTRA_BALANCE, total);
+        replyIntent.putExtra(MainActivity.EXTRA_BALANCE, Double.parseDouble(amount[1]));
         setResult(RESULT_OK, replyIntent);
         finish();
     }
